@@ -1,0 +1,31 @@
+ram task.py is a python file 
+
+Which we need to Exicute in Python interpreter (OR) Need to run on Target server direct 
+
+Server Details:     Import requests ( In Requests place we need to give Target Server Http link to Access.
+
+To Check /Status:   Watch_resource_Util ( Need give Endpoint API="/status")
+
+Script Cover all Requirements 
+Memory  usage 
+Disc Space 
+CPU Usage
+
+
+CRON EXPRESSION
+
+To run this Script every 5 Mins periodically  please follow:
+
+Open Crontab
+
+Edit the corntab using crontab -e
+
+And enter */5 **** /Path/to/script.py
+
+SAVE and EXIT
+
+THIS WILL RUN EVERY 5 MINS
+
+
+
+ 
